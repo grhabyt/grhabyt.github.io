@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  ellipse(50,50,xloc1, yloc1);
+  ellipse(xloc1, yloc1,50,50);
   text(firstLetter,xloc2, yloc2);
   text(firstSwear, xloc3, yloc3)
 }
