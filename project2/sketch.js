@@ -23,6 +23,7 @@ function draw() {
   background(255);
   fill(255,255,0);
   ellipse(xloc1, yloc1,50,50);
+  fill(0);
   text(firstLetter,xloc2, yloc2);
   text(firstSwear, xloc3, yloc3);
   xloc1 += random(-3,3);
