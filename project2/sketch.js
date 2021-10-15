@@ -11,15 +11,16 @@ function setup() {
   var originalString = 'hello';
   firstLetter = originalString.substring(0, 1);
   firstSwear = originalString.substring(0, 4);
-  xloc1 = displayWidth/2;
-  xloc2 = displayWidth/2;
-  xloc3 = displayWidth/2;
-  yloc1 = displayHeight/2;
-  yloc2 = displayHeight/2;
-  yloc3 = displayHeight/2;
+  xloc1 = width/2;
+  xloc2 = width/2;
+  xloc3 = width/2;
+  yloc1 = height/2;
+  yloc2 = height/2;
+  yloc3 = height/2;
 }
 
 function draw() {
+  fill(255,255,0);
   ellipse(xloc1, yloc1,50,50);
   text(firstLetter,xloc2, yloc2);
   text(firstSwear, xloc3, yloc3);
