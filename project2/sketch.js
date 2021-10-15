@@ -7,7 +7,7 @@ var firstSwear;
 
 function setup() {
   //createCanvas(displayWidth, displayHeight);
-  createCanvas(width,height);
+  createCanvas(400,400);
   var originalString = 'hello';
   firstLetter = originalString.substring(0, 1);
   firstSwear = originalString.substring(0, 4);
